@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Parking</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <input
+        type="text"
+        id="name"
+        placeholder="Vehicle Name"
+        autocomplete="off"
+      />
+      <input
+        type="text"
+        id="licence"
+        placeholder="Vehicle Plate"
+        autocomplete="off"
+      />
+      <button id="send" class="success">Register</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Vehicle</th>
+          <th>Plate</th>
+          <th>Prohibited</th>
+          <th>Shares</th>
+        </tr>
+      </thead>
+      <tbody id="garage"></tbody>
+    </table>
+  </body>
+
+  <script src="main.js"></script>
+</html>
